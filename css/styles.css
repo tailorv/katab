@@ -3,8 +3,8 @@ html,body,header,
   overflow-x: hidden;
   height: 100%;
   scroll-behavior: smooth;
-  font-family: 'Eczar', serif;
-  
+  font-family: 'Kanadaka', serif;
+
 }
 body{
   margin: 0;
@@ -13,18 +13,17 @@ body{
 
 h1 {
   letter-spacing: 8px;
-  color: orange;
+  color: white;
   font-weight: bolder;
-  font-family: 'Wallpoet', cursive;
+  font-family: 'lobster', cursive;
   font-size: 60px;
-  text-shadow: 2px 2px 5px rgb(8, 156, 5);
 }
 
 h5 {
   letter-spacing: 3px;
 }
 #overlay{
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 165, 0, 0.1);
   height: 100%;
   width: 100%;
   position: absolute;
@@ -48,7 +47,7 @@ nav .navbar{
 }
 
 .landing{
-  background-image: url("../images/slider2.jpg");
+  background-image: url("../images/friends3.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -66,15 +65,16 @@ nav .navbar{
   padding: 30px;
 }
 .button{
-  border-radius: 10px;
+  border-radius: 50px;
+  color: black;
 }
 .card-title{
-  text-align: center;
-  color: green;
+  text-align: left;
+  color: black;
   font-weight: 800;
 }
 .controls-top h2{
-  color: rgb(5, 172, 5);
+  color: rgb(255, 137, 0);
   padding-top: 40px;
   padding-bottom: 20px;
   font-weight: bolder;
@@ -110,13 +110,13 @@ nav .navbar{
 {
   position: relative;
   left: 50%;
-  top: 90%;
+  top: 80%;
   margin-left:-20px;
-  
+
 }
 
 .bounce {
-  animation: bounce 2s infinite;
+  animation: bounce 4s infinite;
 }
 
 @keyframes bounce {
@@ -138,7 +138,7 @@ nav .navbar{
 }
 .order{
   background-attachment: fixed;
-  background-image: url("../images/slider2.jpg");
+  background-image: url("../images/friends4.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -147,7 +147,7 @@ nav .navbar{
   padding-bottom: 4%;
 }
 .order-overlay{
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 123, 255, 0.8);
   margin-left: 2%;
   margin-right: 2%;
   padding-bottom: 20px;
@@ -171,7 +171,7 @@ td,th{
   color: white;
 }
 .choise h2{
-  color:orange;
+  color:white;
   text-align: left;
 }
 #your-orders{
@@ -183,7 +183,7 @@ td,th{
   text-align: center;
 }
 #contact{
-  color: black;
+  color: blue;
 }
 #contactdetails h2{
   text-align: left;
@@ -203,14 +203,14 @@ td,th{
 }
 #regards{
   text-align: center;
-  color: aliceblue;
+  color: white;
 }
 #information{
   padding-top: 5%;
   font-size: 22px;
   padding-right: 8%;
   padding-left: 5%;
-  color: #ffa500;
+  color: #ffffff;
 }
 @media only screen and (max-width: 485px){
   .flex-xs-column {
@@ -244,7 +244,7 @@ td,th{
 body,
 header,
 .landing {
-  height: 100vh;
+  height: 10vh;
 }
 h1 {
   font-weight: bold;
@@ -267,4 +267,3 @@ h1 {
 }
 
 }
-
