@@ -63,7 +63,7 @@ $(document).ready(function(){
     let fruitslice_value = pfruitslice.length*50;
     console.log("fruitslice value" + fruitslice_value);
 
-    if((psize == "0") && (pchaser == "0")){
+    if((dsize == "0") && (pchaser == "0")){
       console.log("nothing selected");
       $("button.proceed").show();
       $("#information").show();
