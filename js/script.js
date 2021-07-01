@@ -96,7 +96,7 @@ $(document).ready(function(){
       $.each($("input[name='fruitslice']:checked"), function(){
           pfruitslice.push($(this).val());
       });
-      console.log(dfruitslice.join(", "));
+      console.log(pfruitslice.join(", "));
       switch(dsize){
         case "0":
           price =0;
