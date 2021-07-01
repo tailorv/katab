@@ -87,7 +87,7 @@ $(document).ready(function(){
     $("#pizzafruitslice").html(pfruitslice.join(", "));
     $("#totals").html(total);
 
-// Add pizza button
+// Add drink button
     $("button.addPizza").click(function(){
       let pname = $(".name option:selected").val();
       let psize = $("#size option:selected").val();
