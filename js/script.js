@@ -115,7 +115,7 @@ $(document).ready(function(){
          default:
            console.log("error");
        }
-       switch(dchaser){
+       switch(pchaser){
           case "0":
             chaser_price = 0;
           break;
