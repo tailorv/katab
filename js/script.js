@@ -44,7 +44,7 @@ $(document).ready(function(){
      default:
        console.log("error");
    }
-   switch(pchaser){
+   switch(dchaser){
       case "0":
         chaser_price = 0;
       break;
