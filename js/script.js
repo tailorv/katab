@@ -131,7 +131,7 @@ $(document).ready(function(){
           default:
             console.log("No price");
         }
-        let fruitslice_value = pfruitslice.length*50;
+        let fruitslice_value = dfruitslice.length*50;
         console.log("fruitslice value" + fruitslice_value);
         total = price + chaser_price + fruitslice_value;
         console.log(total);
