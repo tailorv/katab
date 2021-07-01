@@ -1,6 +1,6 @@
 var price , chaser_price, fruitslice_price ;
 let total = 0;
-function Getpizza( name,size,chaser,fruitslice, total ){
+function Getdrink( name,size,chaser,fruitslice, total ){
   this.name = name;
   this.size = size;
   this.chaser = chaser;
