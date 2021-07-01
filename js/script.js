@@ -139,7 +139,7 @@ $(document).ready(function(){
         checkoutTotal = checkoutTotal + total;
         console.log(checkoutTotal);
       // constractor function
-      var newOrder = new Getpizza(pname, psize, pchaser,pfruitslice,total);
+      var newOrder = newGetdrink(pname, psize, pchaser,pfruitslice,total);
 
       $("#ordersmade").append('<tr><td id="pizzaname">'+newOrder.name +'</td><td id="pizzasize">' + newOrder.size + '</td><td id="pizzachaser">'+newOrder.chaser + '</td><td id="pizzafruitslice">'+newOrder.fruitslice+'</td><td id="totals">'+newOrder.total+'</td></tr>');
       console.log(newOrder);
