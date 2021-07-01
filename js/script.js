@@ -26,7 +26,7 @@ $(document).ready(function(){
    });
    console.log(pfruitslice.join(", "));
 
-   switch(psize){
+   switch(dsize){
     case "0":
       price =0;
     break;
