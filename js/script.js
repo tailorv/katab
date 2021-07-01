@@ -97,7 +97,7 @@ $(document).ready(function(){
           pfruitslice.push($(this).val());
       });
       console.log(pfruitslice.join(", "));
-      switch(psize){
+      switch(dsize){
         case "0":
           price =0;
         break;
