@@ -34,7 +34,7 @@ A a customer, I would like to;
 3. The project implements one or more Javascript functions.
 4. The project separates the business logic code from the UI logic code.
 5. The web app uses bootstrap and media queries to make it fully responsive.
-6. The javascript code uses the correct syntax of camel case naming of variables. I.e var myVariable = "stores something"; instead of var my_var = "stores something", or, var MyVar = "stores something" , or,  var my-Var = "stores something"
+6. The javascript code uses the correct syntax of camel case naming of variables.example  var myVariable = "stores something"; instead of var my_var = "stores something", or, var MyVar = "stores something" , or,  var my-Var = "stores something"
 7. The project uses JQUERRY functions.
 8. use Bootstrap functions.
 9. Use CSS functions.
