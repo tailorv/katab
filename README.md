@@ -20,12 +20,12 @@ A a customer, I would like to;
 8. See a checkout button that when clicked shows the total amount charged for the orders.
 
 
-![USER INTERFACE](images/home.png) (USER INTERFACE)
-![USER INTERFACE](images/about.png) (USER INTERFACE)
-![USER INTERFACE](images/alcohol.png) (USER INTERFACE)
-![USER INTERFACE](images/beverages.png) (USER INTERFACE)
-![USER INTERFACE](images/order.png) (USER INTERFACE)
-![USER INTERFACE](images/footer.png) (USER INTERFACE)
+![USER INTERFACE](images/home.png) (LANDING PAGE)
+![USER INTERFACE](images/about.png) (ABOUT SECTION)
+![USER INTERFACE](images/alcohol.png) (DRINKS SECTION)
+![USER INTERFACE](images/beverages.png)(BEVERAGES SECTION)
+![USER INTERFACE](images/order.png) (ORDER SECTION)
+![USER INTERFACE](images/footer.png) (CONTACT SECTION)
 
 
 #### **PROJECT OBJECTIVES**
