@@ -66,9 +66,9 @@ You can view the live webpage by following this link https://tailorv.github.io/k
 
 #### **CONTACT**
 >Maxwell.Munene@student.moringaschoolcom <br>
->duke.ancel@student.moringaschoolcom <br>
->joy.wadi1000@student.moringaschoolcom <br>
->olive.wangui@student.moringaschoolcom <br>
+>DukeAjanga@student.moringaschoolcom <br>
+>JoyKiranga@student.moringaschoolcom <br>
+>Olivewangui@student.moringaschoolcom <br>
 
 #### **COPYRIGHT & LICENCE**
 Distributed under the MIT License. See LICENSE for more information on license and copyright.
