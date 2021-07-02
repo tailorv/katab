@@ -11,6 +11,16 @@ body{
   padding: 0;
 }
 
+
+body
+
+{
+  margin: 0;
+  height: 100vh;
+  cursor: url("../images/pointer3.png"), auto;
+
+}
+
 h1 {
   letter-spacing: 8px;
   color: white;
@@ -230,7 +240,7 @@ td,th{
   padding: 20px 30px 40px;
 }
 .about-pic img{
-  width: 94%;
+  width: 54%;
 }
 .order-overlay{
   background-color: rgba(0, 0, 0,0.5);
