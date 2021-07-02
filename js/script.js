@@ -174,7 +174,7 @@ $(document).ready(function(){
     $("button#final-order").click(function(event){
       event.preventDefault();
 
-      $("#pizzatotal").hide();
+      $("#drzzatotal").hide();
       $(".delivery").hide();
       $("button#final-order").hide();
       let deliceryamount= checkoutTotal+150;
