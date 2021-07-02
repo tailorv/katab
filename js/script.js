@@ -44,7 +44,7 @@ $(document).ready(function(){
      default:
        console.log("error");
    }
-   switch(pchaser){
+   switch(dSchaser){
       case "0":
         chaser_price = 0;
       break;
@@ -97,7 +97,7 @@ $(document).ready(function(){
           pfruitslice.push($(this).val());
       });
       console.log(pfruitslice.join(", "));
-      switch(psize){
+      switch(dsize){
         case "0":
           price =0;
         break;
@@ -139,7 +139,7 @@ $(document).ready(function(){
         checkoutTotal = checkoutTotal + total;
         console.log(checkoutTotal);
       // constractor function
-      var newOrder = new Getpizza(pname, psize, pchaser,pfruitslice,total);
+      var newOrder = newGet(pname, psize, pchaser,pfruitslice,total);
 
       $("#ordersmade").append('<tr><td id="pizzaname">'+newOrder.name +'</td><td id="pizzasize">' + newOrder.size + '</td><td id="pizzachaser">'+newOrder.chaser + '</td><td id="pizzafruitslice">'+newOrder.fruitslice+'</td><td id="totals">'+newOrder.total+'</td></tr>');
       console.log(newOrder);
